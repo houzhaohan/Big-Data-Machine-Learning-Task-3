@@ -28,7 +28,7 @@ ReLU函数：\
 • 收敛速度远快于sigmoid和tanh\
 • 缓解了过拟合问题的发生\
 Softmax函数：\
-![image](https://github.com/user-attachments/assets/9bab30cf-41c5-4d8c-a9df-6915f2cee554)\
+$\mathrm{Softmax}(z_i)=\frac{e^{z_i}}{\sum_{c=1}^Ce^{z_c}}$\
 引入指数形式的优点，使用指数形式的Softmax函数能够将差距大的数值拉的更大，适用于多分类问题。
 
 ### 三、实验步骤
